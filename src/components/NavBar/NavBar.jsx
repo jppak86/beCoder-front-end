@@ -7,21 +7,23 @@ const NavBar = ({ user, handleLogout }) => {
       {user ?
         <nav className="nav-bar">
           
-              <div className='user'>
-             beCoder
-              </div>
+          <div className='user'>
+          beCoder
+          </div>
               
               
-            <NavLink to="" onClick={handleLogout}>Log out</NavLink>
-            <NavLink to="/posts">Post</NavLink>
-            <NavLink to="/new">New Post</NavLink>
+          <NavLink to="" onClick={handleLogout}>Log out</NavLink>
+          <NavLink to="/posts">Post</NavLink>
+          <NavLink to="/new">New Post</NavLink>
           
         </nav>
       :
         <nav className="nav-bar">
-          
-            <NavLink to="/login">Log In</NavLink>
-            <NavLink to="/signup">Sign Up</NavLink>
+          <h1 className='user2'>
+            beCoder
+          </h1>
+          <NavLink to="/login">Log In</NavLink>
+          <NavLink to="/signup">Sign Up</NavLink>
           
         </nav>
       }
