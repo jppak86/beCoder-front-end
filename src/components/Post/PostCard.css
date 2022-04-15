@@ -9,7 +9,7 @@
 }
 
 .card-header {
-  background-color: #6a6a76;
+  background-color: #958477;
   font-weight:bold;
   display: flex;
   align-items: center;
@@ -80,6 +80,7 @@ font-weight: bold;
 }
 
 .interactions button {
+  background-color: #958477;
   border: none;
   font-size: 13px;
   background: none;

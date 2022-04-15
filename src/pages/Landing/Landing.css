@@ -1,0 +1,28 @@
+.container {
+  margin-top: 200px;
+  display: inline-block;
+  justify-content: center;
+}
+
+.typed-out{
+  overflow: hidden;
+  border-right: .12em solid orange;
+  white-space: nowrap;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: 0;
+  animation: 
+    typing 3.3s steps(40, end) forwards,
+    blink .8s infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 36.5% }
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: orange; }
+}
