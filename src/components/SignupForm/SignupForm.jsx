@@ -38,11 +38,13 @@ const SignupForm = props => {
   }
 
   return (
+   
     <form
       autoComplete="off"
       onSubmit={handleSubmit}
       className={styles.container}
     >
+       <h1>Sign Up</h1>
       <div className={styles.inputContainer}>
         <label htmlFor="name" className={styles.label}>Name</label>
         <input

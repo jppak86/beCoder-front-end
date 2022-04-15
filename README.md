@@ -1,68 +1,53 @@
-# Flask - React JWT Auth Template - Front End
+# beCoder 👨‍💻
 
-This is the front end of a decoupled Flask React app that includes JWT Authentication.
+beCoder is a web site to help developers to practice and track code interview questions. I started this project with a plan to keep track of interview questions I solved.
 
-When combined with the back end found [here](https://github.com/SEI-Remote/flask-api-auth-template), you'll have all you need to build a full stack Flask React app!
+---
 
-Use this to go build things! 🚀
+### Click [Here](https://thriving-malasada-22873a.netlify.app/login) to see the deployed app.
 
-## To Use This Template
+### Click [Here](https://trello.com/b/OfYoruHx/unit-3-project-plannig) to see the initial Trello planning.
 
-**Replace `<name-of-your-app-here>` in the commands below with the name of your app!**
+---
 
-```bash
-git clone https://github.com/SEI-Remote/flask-react-jwt-auth-template-frontend.git <name-of-your-app-here>
-cd <name-of-your-app-here>-front-end
-```
+## Phtos of App Pages 📸
 
-Once you are in the project directory:
+![Landing](/public/LandingPage.png)
+![Post](/public/PostPage.png)
+![Update](/public/UpdatePage.png)
 
-```bash
-rm -rf .git
-```
+---
 
-Here's what your command line output should like after this step (note that the indicator that we are in a git repository is gone!)
+## Technologies Used 💾
 
-<img src="https://i.imgur.com/L47kNOZ.png" alt="The command line before and after running the rm -rf .git command. Before git:(main) is visible indiating that the directory contains a git repository, after the command it is not.">
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-Re-initialize a git repository:
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-```bash
-git init
-```
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-Use the GitHub CLI to create a new project repository on GitHub:
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-```bash
-gh repo create <name-of-your-app-here>-front-end
-```
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
-Run `npm i` to fetch the template's dependencies:
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-```bash
-npm i
-```
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 
-touch a `.env` file:
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
-```bash
-touch .env
-```
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-Fill it with the following:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-```
-REACT_APP_API_URL=http://127.0.0.1:5000
-```
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-> 🚨 DO NOT place secrets in this `.env` file. The contents of this file WILL be exposed to site visitors.
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-Delete this README.md, then make an initial commit:
+---
 
-```bash
-git add .
-git commit -m "initial commit"
-git push -u origin main
-```
-
-You're done!
+## Icebox Items 🧊
+- [ ] Add comment feature
+- [ ] Add Avatar for users
+- [ ] Add Profiles page
+- [ ] Github connection

@@ -93,7 +93,7 @@ const EditPost = (props) => {
         <label>Edit your code here!</label>
       </div>
 
-      <textarea name="code_block" cols="60" rows="5" 
+      <textarea name="code_block" cols="60" rows="8" 
         autoComplete='off'
         value={formData.code_block}
         onChange={handleChange} 
