@@ -6,7 +6,12 @@ const NavBar = ({ user, handleLogout }) => {
     <>
       {user ?
         <nav className="nav-bar">
-            <h2 id='user'>Hello {user.name}</h2>
+          
+              <div className='user'>
+             beCoder
+              </div>
+              
+              
             <NavLink to="" onClick={handleLogout}>Log out</NavLink>
             <NavLink to="/posts">Post</NavLink>
             <NavLink to="/new">New Post</NavLink>
