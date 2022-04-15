@@ -1,0 +1,31 @@
+.hidden-container {
+  display: flex;
+  width: inherit;
+  background: #0b0b12;
+}
+
+.header {
+  height: 50px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content:flex-start;
+  background: #12121b;
+  box-sizing: border-box;
+  color: rgb(200, 200, 200);
+  border-radius: 8px 8px 0px 0px;
+}
+
+
+.header button {
+  margin: 0;
+  font-size: 13px;
+  font-weight: bold;
+  background: none;
+  margin-left: auto;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 8px 15px 8px 15px;
+  border: 2px solid #bcbcce;
+  color: rgb(200, 200, 200);
+}
