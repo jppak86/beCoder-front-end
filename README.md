@@ -6,8 +6,6 @@ beCoder is a web site to help developers to practice and track code interview qu
 
 ### Click [Here](https://thriving-malasada-22873a.netlify.app/login) to see the deployed app.
 
-### Click [Here](https://trello.com/b/OfYoruHx/unit-3-project-plannig) to see the initial Trello planning.
-
 ---
 
 ## Phtos of App Pages 📸
